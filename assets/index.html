@@ -1,0 +1,273 @@
+<html>
+  <head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <title>Netflix India - Watch Shows Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="background-image"
+        src="../assets/images/background.jpg"
+        alt="Netflix-background-image"
+      />
+
+      <div class="top-container">
+        <div class="top-left">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+            alt="Netflix Logo"
+            class="netflix-logo"
+          />
+        </div>
+
+        <div class="top-right">
+          <div class="language">
+            <button type="button" class="lang-dropdown">
+              <i class="bi bi-translate"> English </i>
+              <i class="fa fa-caret-down"></i>
+            </button>
+          </div>
+          <div class="sign-in">
+            <button type="button">Sign in</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-part">
+        <h1>Unlimited Movies, shows and more</h1>
+        <h4>Starts at Rs.149. Cancel at any time</h4>
+        <span
+          >Ready to watch? Enter your email to create or restart your
+          membership.</span
+        >
+
+        <div class="email-form-wrapper">
+          <div class="email">
+            <input type="text" id="email-address" placeholder="Email address" />
+          </div>
+
+          <div class="get-started">
+            <button type="submit">Get started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---Trending now-->
+    <div class="trending-now">
+      <h2>Trending now</h2>
+      <div class="slider-container">
+        <button class="handle handle-left" onclick="slide('left')">
+          &#x2039;
+        </button>
+        <div class="image-row" id="movieRow">
+          <div class="movie-card">
+            <span class="rank-number">1</span>
+            <img src="../assets/images/trending1.jpg" alt="Trending1" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">2</span>
+            <img src="../assets/images/trending2.jpg" alt="Trending2" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">3</span>
+            <img src="../assets/images/trending3.jpg" alt="Trending3" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">4</span>
+            <img src="../assets/images/trending4.jpg" alt="Trending4" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">5</span>
+            <img src="../assets/images/trending5.jpg" alt="Trending5" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">6</span>
+            <img src="../assets/images/trending6.jpg" alt="Trending6" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">7</span>
+            <img src="../assets/images/trending7.jpg" alt="Trending7" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">8</span>
+            <img src="../assets/images/trending8.jpg" alt="Trending8" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">9</span>
+            <img src="../assets/images/trending9.jpg" alt="Trending9" />
+          </div>
+
+          <div class="movie-card">
+            <span class="rank-number">10</span>
+            <img src="../assets/images/trending10.jpg" alt="Trending10" />
+          </div>
+        </div>
+        <button class="handle handle-right" onclick="slide('right')">
+          &#x203A;
+        </button>
+      </div>
+    </div>
+
+    <!--More resons to join -->
+    <div class="joinRow">
+      <h2>More reasons to join</h2>
+
+      <div class="reasonstoJoin">
+        <h3>Enjoy on your TV</h3>
+        <span>
+          Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.</span
+        >
+        <img
+          src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/tv.svg"
+          alt="tv-icon"
+          class="card-icon"
+        />
+      </div>
+
+      <div class="reasonstoJoin">
+        <h3>Download your shows to watch offline</h3>
+        <span>
+          Save your favourites easily and always have something to watch.</span
+        >
+        <img
+          src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/arrow-down-circle.svg"
+          alt="download-icon"
+          class="card-icon"
+        />
+      </div>
+
+      <div class="reasonstoJoin">
+        <h3>Watch everywhere</h3>
+        <span>
+          Stream unlimited movies and TV shows on your phone, tablet, laptop,
+          and TV.</span
+        >
+        <img
+          src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/display.svg"
+          alt="devices-icon"
+          class="card-icon"
+        />
+      </div>
+
+      <div class="reasonstoJoin">
+        <h3>Create profiles for kids</h3>
+        <span>
+          Send kids on adventures with their favourite characters in a space
+          made just for them — free with your membership.</span
+        >
+        <img
+          src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/emoji-smile.svg"
+          alt="kids-icon"
+          class="card-icon"
+        />
+      </div>
+    </div>
+
+    <!---Frequent asked questions--->
+    <div class="text-block">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-box">
+        <p>
+          <span> What is Netflix?</span>
+          <span class="plus-icon"> +</span>
+        </p>
+
+        <p>
+          <span>How much does Netflix cost?</span>
+          <span class="plus-icon"> +</span>
+        </p>
+
+        <p>
+          <span>Where can I watch?</span>
+          <span class="plus-icon"> +</span>
+        </p>
+
+        <p>
+          <span>How do I cancel?</span>
+          <span class="plus-icon"> +</span>
+        </p>
+
+        <p>
+          <span>What can I watch on Netflix</span>
+          <span class="plus-icon"> +</span>
+        </p>
+
+        <p>
+          <span>Is Netflix good for kids?</span>
+          <span class="plus-icon"> +</span>
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p id="footer-cta">
+        Ready to watch? Enter your email to create or restart your membership.
+      </p>
+
+      <div class="email-form-wrapper">
+        <div class="email-address">
+          <input type="text" id="email-address" placeholder="Email address" />
+        </div>
+        <div class="get-started">
+          <button type="button">Get started</button>
+        </div>
+      </div>
+
+      <p id="questions">Questions? Call <a>000-111-222-3423</a></p>
+      <nav class="footer-links">
+        <a href="#">FAQ</a>
+        <a href="#">Help Centre</a>
+        <a href="#">Account</a>
+        <a href="#">Media Centre</a>
+
+        <a href="#">Investor Relations</a>
+        <a href="#">Jobs</a>
+        <a href="#">Ways to Watch</a>
+        <a href="#">Terms of Use</a>
+
+        <a href="#">Privacy</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Contact Us</a>
+
+        <a href="#">Speed Test</a>
+        <a href="#">Legal Notices</a>
+        <a href="#">Only on Netflix</a>
+      </nav>
+
+      <button id="lang-btn">
+        <i class="bi bi-translate"> English </i>
+        <i class="fa fa-caret-down"></i>
+      </button>
+
+      <p class="footer-pro">Netflix India</p>
+      <p class="footer-pro">
+        This page is protected by Google reCAPTCHA to ensure you are not a bot.
+      </p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
