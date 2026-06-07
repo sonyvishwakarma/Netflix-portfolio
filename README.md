@@ -2,7 +2,6 @@
 
 A pixel-perfect front-end clone of the Netflix India landing page, built using modern responsive layout techniques. This project focuses on replicating premium UI details, exact typographic scales, custom interactive elements, and custom-tailored cross-browser form inputs.
 
-Live Preview: [https://netflix-portfolio-ashen.vercel.app/]
 
 ---
 
